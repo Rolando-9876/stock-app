@@ -5,7 +5,7 @@ const app = express()
 app.get('/', (req, res) => {
     console.log("Peticion Recibida")
 
-    res.send('<h1>Bienvenidos, Suscribete!</h1>')
+    res.send('<h1>Bienvenidos, Suscribete con nosotros!</h1>')
 
 })
 
